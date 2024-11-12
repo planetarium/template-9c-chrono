@@ -1,0 +1,35 @@
+{
+    "type": "module",
+    "scripts": {
+        "codegen": "graphql-codegen --config ./graphql/headless/codegen.yaml",
+        "start": "vite"
+    },
+    "dependencies": {
+        "@apollo/client": "^3.9.11",
+        "graphql": "^16.8.1",
+        "graphql-request": "^6.1.0",
+        "graphql-tag": "^2.12.6",
+        "uuid": "^9.0.1",
+        "@planetarium/chrono-sdk": "npm:@jsr/planetarium__chrono-sdk@^0.3.0-dev.202408230213005086+2ce740d2bf0f2d2180070114ef836f207344b682",
+        "@planetarium/lib9c": "npm:@jsr/planetarium__lib9c@^0.3.0",
+        "buffer": "^6.0.3",
+        "react": "^18",
+        "react-dom": "^18"
+    },
+    "devDependencies": {
+        "@graphql-codegen/cli": "^5.0.2",
+        "@graphql-codegen/introspection": "^4.0.3",
+        "@graphql-codegen/typescript": "^4.0.9",
+        "@graphql-codegen/typescript-graphql-request": "^6.2.0",
+        "@graphql-codegen/typescript-operations": "^4.2.3",
+        "@graphql-codegen/typescript-react-apollo": "^4.3.0",
+        "@graphql-codegen/typescript-resolvers": "^4.2.1",
+        "@types/react": "^18.2.66",
+        "@types/react-dom": "^18.2.22",
+        "@types/jest": "^27.0.1",
+        "@types/node": "^22.9.0",
+        "@types/uuid": "^9.0.8",
+        "typescript": "^4.4.2",
+        "vite": "^5"
+    }
+}

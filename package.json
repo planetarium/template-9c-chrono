@@ -1,5 +1,6 @@
 {
     "type": "module",
+    "license": "AGPL-3.0-only",
     "scripts": {
         "codegen": "graphql-codegen --config ./graphql/headless/codegen.yaml",
         "start": "vite"
